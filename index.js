@@ -2,6 +2,7 @@ import TelegramBot from "node-telegram-bot-api";
 import { token, bot } from "./config.js";
 import { kb } from "./keyboards.js";
 import fs from "fs";
+let bot = new TelegramBot(token, { polling: true });
 
 const html = ` <b>helllo</b>
   <p>loremsdf;ksdj</p>`;
