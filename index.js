@@ -8,13 +8,13 @@ const html = ` <b>helllo</b>
   <p>loremsdf;ksdj</p>`;
 
 let arr = ["Камінь", "Ножиці", "Бумага"];
-let score = 0;
+let score = 10;
 let rssDate = {
   hour: 10,
   minutes: 0,
   lastSuccessRssDay: 23,
 };
-
+// CI/CD devOps server (5-7year)  hard 0.7- android, apple, pc, site, viddil, tg, +20
 function rssDay() {
   setInterval(() => {
     let today = new Date();
